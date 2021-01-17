@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>714a272e5c4d44b56b688e90459b90afe2120642</guid>
+	<type>node</type>
+	<hash>6e742ca4</hash>
+	<runtimes>
+		<runtime id="714a272e5c4d44b56b688e90459b90afe2120642" name="Tank.node" link="0"/>
+	</runtimes>
+</asset>

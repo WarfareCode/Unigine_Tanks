@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="NodeDummy" id="461860852" name="Tank">
+		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="127042582" name="Body">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			<node type="ObjectMeshStatic" id="843569638" name="Cuboid">
+				<mesh_name>guid://8a3194607f71bc3f685d9c921fd412c92f50fd94</mesh_name>
+				<surface name="box" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1702488268" name="Head">
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			<node type="ObjectMeshStatic" id="1141766375" name="Sphere">
+				<mesh_name>guid://a0b95b02234d5e7914d1f584eccf03130b06ad56</mesh_name>
+				<surface name="sphere" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0.5 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1468869776" name="Cylinder">
+				<mesh_name>guid://064495d18304d4fc9d262c2bbd2b538e43cac595</mesh_name>
+				<surface name="cylinder" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>0.99999845 -1.1270584e-08 6.4577975e-08 0.0 6.5553905e-08 0.17192832 -0.98510474 0.0 -7.4606594e-14 0.98510414 0.17192821 0.0 0 0.60000002 0.80000001 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>

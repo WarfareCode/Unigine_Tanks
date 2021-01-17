@@ -1,0 +1,166 @@
+
+---- Engine ----
+Version: 2.13.0.0 ver-2.13.0.0-27a5e15 Dec 15 2020
+Binary: Windows 64-bit Visual C++ 1900 Release
+Engine features: Direct3D11 OpenAL XPad360 Joystick HalfTexCoords Microprofile OpenEXR
+
+---- Configs ----
+Loading boot config "D:/Projects/Unigine/Tanks/data/configs/default.boot"...
+Loading user config "D:/Projects/Unigine/Tanks/data/configs/default.user"...
+Using config file "configs/default.config"
+Using boot config file "configs/default.boot"
+Using user config file "configs/default.user"
+Using controls config file "configs/default.controls"
+
+---- GPU Detection ----
+GPU 0 Active: NVIDIA GeForce GTX 1660 SUPER 5991 MB
+GPU 1		: Microsoft Basic Render Driver 16355 MB
+
+---- System ----
+OS:		Windows 10 (build 19042) 64-bit
+
+CPU:	Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz
+		Frequency: 2999MHz
+		Extensions:  MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 HTT
+		Cores:8 Threads:8
+
+		System memory: 32710 MB
+		Sync threads:  7
+		Async threads: 8
+
+GPU:	NVIDIA GeForce GTX 1660 SUPER
+		Video memory:  5991 MB
+
+
+---- Plugins ----
+Loading "FbxImporter_x64.dll"...
+Loading "GLTFImporter_x64.dll"...
+Loading "FbxExporter_x64.dll"...
+Plugins initialization: 1ms
+
+
+---- Application ----
+Loading "dxgi.dll"...
+Loading "openal32.dll"...
+Set 860x560 fullwindow video mode
+Application initialization: 302ms
+
+
+
+---- Render ----
+Renderer: NVidia 5991MB
+Renderer API: Direct3D 11.0
+Maximum texture size:    16384
+Maximum texture units:   16
+
+---- Engine Microprofile ----
+MicroProfile: Web server started on port 1338
+Microprofile info:
+	Max frames: 500
+	Dump frames: 500
+	GPU: Enabled
+	Web server: Enabled
+	Web server port: 1338
+	Web server frames: 200
+
+---- Filesystem ----
+App path:  D:/Projects/Unigine/Tanks/bin/
+Data path: D:/Projects/Unigine/Tanks/data/
+Save path: D:/Projects/Unigine/Tanks/bin/
+
+Runtimes loaded: 6 0ms
+Filesystem initialization: 447ms
+
+---- Sound ----
+Renderer: OpenAL Soft on Динамики (Realtek(R) Audio)
+OpenAL vendor:   OpenAL Community
+OpenAL renderer: OpenAL Soft
+OpenAL version:  1.1 ALSOFT 1.19.1
+Found AL_EXT_LINEAR_DISTANCE
+Found AL_EXT_OFFSET
+Found ALC_EXT_EFX
+Found ALC_SOFT_HRTF
+Found EFX Filter
+Found EFX Reverb
+Found EAX Reverb
+Found QUAD16 format
+Found 51CHN16 format
+Found 61CHN16 format
+Found 71CHN16 format
+Device enumeration supported
+Maximum sources:         256
+Maximum effect slots:    16
+Maximum auxiliary sends: 2
+Output sampling frequency: 48000hz
+HRTF not enabled!
+
+---- Physics ----
+
+---- PathFind ----
+
+Loading controls "D:/Projects/Unigine/Tanks/data/configs/default.controls"...
+Loading "xinput1_4.dll"...
+Loading config "D:/Projects/Unigine/Tanks/data/configs/default.config"...
+
+---- Materials ----
+Engine base materials loaded: 192 / 192 (176ms)
+Engine materials loaded:      70 / 70 (12ms)
+User materials loaded:        1 / 1 (0ms)
+Total materials: 263
+
+
+---- Properties ----
+Properties loaded:            2 / 2 (0ms)
+
+Processor registered "DefaultProcessor".
+Importer registered "FbxImporter".
+Processor registered "MergeStaticMeshes".
+Processor registered "MergeSimilarMaterials".
+Processor registered "MergeSurfacesByMaterials".
+Processor registered "CombineByPostfixes".
+Processor registered "SplitByBound".
+Processor registered "Repivot".
+Processor registered "CreateUV".
+Processor registered "CloseAnimation".
+Importer registered "GLTFImporter".
+Exporter registered "FbxExporter".
+Set 2560x1080 windowed video mode
+Engine initialization: 1993ms
+
+
+---- Interpreter ----
+Version: 2.90
+
+Unigine~# config_autosave 0 && world_load "Tanks"
+Script loading "core/unigine.usc" 3ms
+Loading "core/locale/unigine.locale" dictionary 0ms
+World loading "Tanks.world" 62ms
+
+---- Load cache textures ----
+Cache textures loaded 92 (10ms)
+
+Exporter unregistered "FbxExporter".
+Importer unregistered "GLTFImporter".
+Processor unregistered "MergeStaticMeshes".
+Processor unregistered "MergeSurfacesByMaterials".
+Processor unregistered "CombineByPostfixes".
+Processor unregistered "CreateUV".
+Processor unregistered "CloseAnimation".
+Importer unregistered "FbxImporter".
+Processor unregistered "MergeSimilarMaterials".
+Processor unregistered "SplitByBound".
+Processor unregistered "Repivot".
+Close "openal32.dll"
+ERROR:	D3D11RenderContext::destroyContext(): 200 unreleased references
+Total RAM:           394.1 MB
+- system RAM used:   386.6 MB
+- pool RAM reserved: 7.5 MB
+- pool RAM used:     2.0 MB
+Total allocs:        131922
+- system allocs:     474
+- 16b pool allocs:   131256
+- 32b pool allocs:   168
+- 64b pool allocs:   24
+
+
+Shutdown

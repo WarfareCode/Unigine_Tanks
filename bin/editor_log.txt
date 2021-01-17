@@ -1,0 +1,195 @@
+
+---- Engine ----
+Version: 2.13.0.0 ver-2.13.0.0-27a5e15 Dec 15 2020
+Binary: Windows 64-bit Visual C++ 1900 Release
+Engine features: Direct3D11 OpenAL XPad360 Joystick HalfTexCoords Microprofile OpenEXR
+
+---- Configs ----
+Loading boot config "D:/Projects/Unigine/Tanks/data/configs/default.boot"...
+Loading user config "D:/Projects/Unigine/Tanks/data/configs/default.user"...
+Using config file "configs/default.config"
+Using boot config file "configs/default.boot"
+Using user config file "configs/default.user"
+Using controls config file "configs/default.controls"
+
+---- GPU Detection ----
+GPU 0 Active: NVIDIA GeForce GTX 1660 SUPER 5991 MB
+GPU 1		: Microsoft Basic Render Driver 16355 MB
+
+---- System ----
+OS:		Windows 10 (build 19042) 64-bit
+
+CPU:	Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz
+		Frequency: 2999MHz
+		Extensions:  MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 HTT
+		Cores:8 Threads:8
+
+		System memory: 32710 MB
+		Sync threads:  7
+		Async threads: 8
+
+GPU:	NVIDIA GeForce GTX 1660 SUPER
+		Video memory:  5991 MB
+
+
+---- Plugins ----
+Loading "FbxImporter_x64.dll"...
+Loading "GLTFImporter_x64.dll"...
+Loading "FbxExporter_x64.dll"...
+Plugins initialization: 2ms
+
+
+---- Application ----
+Loading "dxgi.dll"...
+Loading "openal32.dll"...
+Application initialization: 304ms
+
+
+
+---- Render ----
+Renderer: NVidia 5991MB
+Renderer API: Direct3D 11.0
+Maximum texture size:    16384
+Maximum texture units:   16
+
+---- Engine Microprofile ----
+MicroProfile: Web server started on port 1337
+Microprofile info:
+	Max frames: 500
+	Dump frames: 500
+	GPU: Enabled
+	Web server: Enabled
+	Web server port: 1337
+	Web server frames: 200
+
+---- Filesystem ----
+App path:  D:/Projects/Unigine/Tanks/bin/
+Data path: D:/Projects/Unigine/Tanks/data/
+Save path: D:/Projects/Unigine/Tanks/bin/
+
+Runtimes loaded: 6 0ms
+Filesystem initialization: 450ms
+
+---- Sound ----
+Renderer: OpenAL Soft on Динамики (Realtek(R) Audio)
+OpenAL vendor:   OpenAL Community
+OpenAL renderer: OpenAL Soft
+OpenAL version:  1.1 ALSOFT 1.19.1
+Found AL_EXT_LINEAR_DISTANCE
+Found AL_EXT_OFFSET
+Found ALC_EXT_EFX
+Found ALC_SOFT_HRTF
+Found EFX Filter
+Found EFX Reverb
+Found EAX Reverb
+Found QUAD16 format
+Found 51CHN16 format
+Found 61CHN16 format
+Found 71CHN16 format
+Device enumeration supported
+Maximum sources:         256
+Maximum effect slots:    16
+Maximum auxiliary sends: 2
+Output sampling frequency: 48000hz
+HRTF not enabled!
+
+---- Physics ----
+
+---- PathFind ----
+
+Loading "xinput1_4.dll"...
+Loading config "D:/Projects/Unigine/Tanks/data/configs/default.config"...
+
+---- Materials ----
+Engine base materials loaded: 192 / 192 (182ms)
+Engine materials loaded:      70 / 70 (13ms)
+User materials loaded:        1 / 1 (0ms)
+Total materials: 263
+
+
+---- Properties ----
+Properties loaded:            2 / 2 (0ms)
+
+Processor registered "DefaultProcessor".
+Importer registered "FbxImporter".
+Processor registered "MergeStaticMeshes".
+Processor registered "MergeSimilarMaterials".
+Processor registered "MergeSurfacesByMaterials".
+Processor registered "CombineByPostfixes".
+Processor registered "SplitByBound".
+Processor registered "Repivot".
+Processor registered "CreateUV".
+Processor registered "CloseAnimation".
+Importer registered "GLTFImporter".
+Exporter registered "FbxExporter".
+Engine initialization: 2230ms
+
+
+Script loading "editor2/editor.usc" 260ms
+---- Editor ----
+Version: 2.13.0.0 ver-2.13.0.0-27a5e15 Dec 15 2020
+Binary: Windows MSVC 19.0.24215.1 
+
+[Build Tool] Project file is found ( "D:/Projects/Unigine/Tanks/Tanks.project" ).
+Editor.PluginSystem: Plugin search paths:  QVector("D:/Projects/Unigine/Tanks/bin/editor")
+---- Interpreter ----
+Version: 2.90
+
+Unigine~# config_autosave 1 && world_load "Tanks"
+Script loading "core/unigine.usc" 16ms
+Loading "core/locale/unigine.locale" dictionary 0ms
+World loading "Tanks.world" 56ms
+
+---- Load cache textures ----
+Cache textures loaded 91 (10ms)
+
+D:/Projects/Unigine/Tanks/data/box.mesh (857B): import started...
+D:/Projects/Unigine/Tanks/data/box.mesh: import finished in 0.060000 ms
+Reloading "box.mesh" mesh
+Reloading "box.mesh" mesh
+D:/Projects/Unigine/Tanks/data/Models/sphere.mesh (68.1KB): import started...
+D:/Projects/Unigine/Tanks/data/Models/sphere.mesh: import finished in 0.082000 ms
+Reloading "Models/sphere.mesh" mesh
+Reloading "Models/sphere.mesh" mesh
+ERROR:	Mesh::info(): unknown format of "guid://14b665d7e844c94a185aa821033fa30cadcd02fb" file
+Reloading "guid://14b665d7e844c94a185aa821033fa30cadcd02fb" mesh
+ERROR:	Mesh::info(): unknown format of "guid://14b665d7e844c94a185aa821033fa30cadcd02fb" file
+D:/Projects/Unigine/Tanks/data/Models/sphere.mesh (68.3KB): import started...
+D:/Projects/Unigine/Tanks/data/Models/sphere.mesh: import finished in 0.048000 ms
+Reloading "Models/sphere.mesh" mesh
+Reloading "Models/sphere.mesh" mesh
+D:/Projects/Unigine/Tanks/data/Models/cylinder.mesh (8.1KB): import started...
+D:/Projects/Unigine/Tanks/data/Models/cylinder.mesh: import finished in 0.054000 ms
+Reloading "Models/cylinder.mesh" mesh
+Reloading "Models/cylinder.mesh" mesh
+Unigine~# world_save
+Saving "Tanks.world"
+Unigine~# world_save
+Saving "Tanks.world"
+"Failed to get license information: connection with SDK Browser was lost. Restart SDK Browser and try again."
+WARNING:	unknown tool window
+Exporter unregistered "FbxExporter".
+Importer unregistered "GLTFImporter".
+Processor unregistered "MergeStaticMeshes".
+Processor unregistered "MergeSurfacesByMaterials".
+Processor unregistered "CombineByPostfixes".
+Processor unregistered "CreateUV".
+Processor unregistered "CloseAnimation".
+Importer unregistered "FbxImporter".
+Processor unregistered "MergeSimilarMaterials".
+Processor unregistered "SplitByBound".
+Processor unregistered "Repivot".
+Close "openal32.dll"
+ERROR:	D3D11RenderContext::destroyContext(): 8433 unreleased references
+Total RAM:           397.6 MB
+- system RAM used:   388.1 MB
+- pool RAM reserved: 9.5 MB
+- pool RAM used:     2.1 MB
+Total allocs:        134567
+- system allocs:     557
+- 16b pool allocs:   131296
+- 32b pool allocs:   2625
+- 64b pool allocs:   89
+
+
+Shutdown
